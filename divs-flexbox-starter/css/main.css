@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #b3d4fc;
   height: 100%;
 }
 
@@ -113,6 +113,7 @@ body {
   display:flex;
   justify-content:space-between;
   font-weight: 700;
+  flex-flow:row wrap;
 }
 
 .div-1, .div-2, .div-3 {
@@ -121,16 +122,31 @@ body {
   width:30%;
   justify-content:center;
   align-items:center;
-  text-align:justify;
-  color: deepskyblue;
+  text-align:left;
+  color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
+  font-size: 1em;
   height: 300px;
 }
 
 .div-1, .div-2 {
-    border-right:lightskyblue 1px solid;
+    border-right:#fff 1px solid;
     padding-right: 30px;
+}
+
+.wrapper header {
+    width: 100%;
+    background-color:#fff;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:4rem;
+    color:#b3d4fc;
+
+}
+
+.wrapper .about {
+    color: #fff;
+    font-style:italic;
+    font-size: 1.2em;
 }
 
 .wrapper span {
@@ -140,6 +156,14 @@ body {
 }
 
 
+.wrapper footer {
+    border-top: #fff 1px solid;
+    width: 100%;
+    margin-top:3em;
+    padding-top:3em;
+    font-weight: bolder;
+    color: #fff;
+}
 
 
 /* ==========================================================================
