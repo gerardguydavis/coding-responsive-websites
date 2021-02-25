@@ -170,3 +170,64 @@ footer span {
 	color: #77a466;
 	font-size: 14px;
 }
+
+@media all and (min-width:768px) {
+
+.bottom-section {
+align-items: stretch;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+        border-bottom: 1px solid #eee;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two p {
+padding-right: 30px;
+}
+
+.section-two h3,
+.section-three h3 {
+	padding: 10px 30px;
+}
+
+.section-two p,
+.section-three p {
+padding-left: 30px;
+}
+
+footer {
+border-top: none;
+}
+
+@media all and (min-width:1200px) {
+  header {
+  flex-direction: row;
+  justify-content: right;
+  }
+
+  header h1 {
+    width: 60%;
+    padding: 0em;
+    border-bottom: none;
+    text-align: left;
+  }
+
+  header nav {
+    width: 40%;
+  }
+
+  header nav ul {
+    flex-direction: row;
+  }
+
+ .topsection: {
+ width: 100%;
+}
